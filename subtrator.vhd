@@ -54,12 +54,12 @@ begin
 	complemento_subtrator : complemento_2 PORT MAP(
 	B(0), B(1), B(2), B(3),
 	S(0), S(1), S(2), S(3),
-	S(4))
+	S(4));
 	
 	somador_subtrator : somador_4_bits PORT MAP(
 	A(0), A(1), A(2), A(3),
 	S(0), S(1), S(2), S(3),
 	S(4),
-	Dif(0), Dif(1), Dif(2), Dif(3))
+	Dif(0), Dif(1), Dif(2), Dif(3));
 end Behavioral;
 
